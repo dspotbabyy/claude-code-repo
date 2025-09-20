@@ -1,6 +1,7 @@
 name: Claude Code Workflow
 on: 
   pull_request:
+    types: [opened, synchronize]
   workflow_dispatch:
 
 jobs:
