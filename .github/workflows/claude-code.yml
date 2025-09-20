@@ -4,8 +4,6 @@ permissions:
   pull-requests: write
   issues: write
   id-token: write
-  actions: read
-  metadata: read
 
 on:
   issue_comment:
